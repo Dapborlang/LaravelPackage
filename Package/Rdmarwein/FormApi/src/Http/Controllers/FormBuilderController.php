@@ -17,7 +17,7 @@ class FormBuilderController extends Controller
     
     public function index($id)
     {
-        return view('formbuilder.index',compact('id'));
+        return view('form_api::formbuilder.index',compact('id'));
     }
 
     /**
@@ -25,7 +25,7 @@ class FormBuilderController extends Controller
      */
     public function create($id)
     {
-        return view('formbuilder.create',compact('id'));
+        return view('form_api::formbuilder.create',compact('id'));
     }
 
     /**
@@ -49,7 +49,7 @@ class FormBuilderController extends Controller
      */
     public function edit($fid,$id)
     {
-        return view('formbuilder.edit',compact('fid','id'));
+        return view('form_api::formbuilder.edit',compact('fid','id'));
     }
 
     /**

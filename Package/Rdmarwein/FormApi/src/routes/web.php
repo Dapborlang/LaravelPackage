@@ -1,6 +1,7 @@
 <?php
 //API
 use Rdmarwein\FormApi\Http\Controllers\FormBuilderAPIController;
+use Rdmarwein\FormApi\Http\Controllers\FormBuilderController;
 Route::group(['middleware' => 'web','namespace'=>'Rdmarwein\FormApi\Http\Controllers'], function()
 {
 //Create the Form
@@ -15,4 +16,13 @@ Route::get('form-api/edit/{fid}/{id}',[FormBuilderAPIController::class, 'edit'])
 
 //Retrieve the Form
 Route::get('form-api/{id}',[FormBuilderAPIController::class, 'index']);
+
+//Consume the api
+//Create
+
+Route::get('form-builder/create/{id}',[FormBuilderController::class, 'create']);
+//Index
+Route::get('form-builder/{id}',[FormBuilderController::class, 'index']);
+//Edit
+Route::get('form-builder/{fid}/{id}',[FormBuilderController::class, 'edit']);
 });

@@ -47,7 +47,7 @@ class FormBuilderAPIController extends Controller
                     else{
                         $itemData[$column]="please map the relation";
                     }
-                    
+                   
                 }
                 else
                 {
@@ -216,8 +216,6 @@ class FormBuilderAPIController extends Controller
                 ];
             }
         }
-        
-
         return $selectOption;
     }
 }
