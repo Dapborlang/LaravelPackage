@@ -27,70 +27,70 @@ return new class extends Migration
             array(
             [
                 'form_master_id' => 3,
-                'master_model' => 'App\Models\FormRole',
+                'master_model' => 'Rdmarwein\FormApi\Models\FormRole',
                 'foreign_key' => 'role',
                 'master_id' => 'role',
                 'master_detail'=>'role'
             ],
             [
                 'form_master_id' => 4,
-                'master_model' => 'App\Models\FormMaster',
+                'master_model' => 'Rdmarwein\FormApi\Models\FormMaster',
                 'foreign_key' => 'form_master_id',
                 'master_id' => 'id',
                 'master_detail'=>'header'
             ],
             [
                 'form_master_id' => 5,
-                'master_model' => 'App\Models\FormMaster',
+                'master_model' => 'Rdmarwein\FormApi\Models\FormMaster',
                 'foreign_key' => 'form_master_id',
                 'master_id' => 'id',
                 'master_detail'=>'header'
             ],
             [
                 'form_master_id' => '5',
-                'master_model' => 'App\Models\InputType',
+                'master_model' => 'Rdmarwein\FormApi\Models\InputType',
                 'foreign_key' => 'input_type',
                 'master_id' => 'input_type',
                 'master_detail'=>'input_detail'
             ],
             [
                 'form_master_id' => 6,
-                'master_model' => 'App\Models\FormMaster',
+                'master_model' => 'Rdmarwein\FormApi\Models\FormMaster',
                 'foreign_key' => 'form_master_id',
                 'master_id' => 'id',
                 'master_detail'=>'header'
             ],
             [
                 'form_master_id' => 7,
-                'master_model' => 'App\Models\FormMaster',
+                'master_model' => 'Rdmarwein\FormApi\Models\FormMaster',
                 'foreign_key' => 'form_master_id',
                 'master_id' => 'id',
                 'master_detail'=>'header'
             ],
             [
                 'form_master_id' => 8,
-                'master_model' => 'App\Models\FormMaster',
+                'master_model' => 'Rdmarwein\FormApi\Models\FormMaster',
                 'foreign_key' => 'form_master_id',
                 'master_id' => 'id',
                 'master_detail'=>'header'
             ],
             [
                 'form_master_id' => 8,
-                'master_model' => 'App\Models\FormForeignKey',
+                'master_model' => 'Rdmarwein\FormApi\Models\FormForeignKey',
                 'foreign_key' => 'master_key',
                 'master_id' => 'id',
                 'master_detail'=>'foreign_key'
             ],
             [
                 'form_master_id' => 8,
-                'master_model' => 'App\Models\FormForeignKey',
+                'master_model' => 'Rdmarwein\FormApi\Models\FormForeignKey',
                 'foreign_key' => 'foreign_key',
                 'master_id' => 'id',
                 'master_detail'=>'foreign_key'
             ],
             [
                 'form_master_id' => 9,
-                'master_model' => 'App\Models\FormMaster',
+                'master_model' => 'Rdmarwein\FormApi\Models\FormMaster',
                 'foreign_key' => 'form_master_id',
                 'master_id' => 'id',
                 'master_detail'=>'header'

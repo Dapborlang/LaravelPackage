@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace Rdmarwein\FormApi\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;

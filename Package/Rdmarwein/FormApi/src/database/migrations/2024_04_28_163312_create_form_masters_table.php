@@ -25,55 +25,55 @@ return new class extends Migration
             [
                 'header' => 'Roles Name',
                 'table_name' => 'form_role_names',
-                'model' => 'App\Models\FormRoleName',
+                'model' => 'Rdmarwein\FormApi\Models\FormRoleName',
                 'role' => 'ADM'
             ],
             [
                 'header' => 'Roles',
                 'table_name' => 'form_roles',
-                'model' => 'App\Models\FormRole',
+                'model' => 'Rdmarwein\FormApi\Models\FormRole',
                 'role' => 'ADM'
             ],
             [
                 'header' => 'Form Master',
                 'table_name' => 'form_masters',
-                'model' => 'App\Models\FormMaster',
+                'model' => 'Rdmarwein\FormApi\Models\FormMaster',
                 'role' => 'ADM'                    
             ],
             [
                 'header' => 'Input Type',
                 'table_name' => 'input_types',
-                'model' => 'App\Models\InputType',
+                'model' => 'Rdmarwein\FormApi\Models\InputType',
                 'role' => 'ADM'                    
             ],
             [
                 'header' => 'Form Input Type',
                 'table_name' => 'form_input_types',
-                'model' => 'App\Models\FormInputType',
+                'model' => 'Rdmarwein\FormApi\Models\FormInputType',
                 'role' => 'ADM'                    
             ],
             [
                 'header' => 'Column Exclusion',
                 'table_name' => 'form_exclude_columns',
-                'model' => 'App\Models\FormExcludeColumns',
+                'model' => 'Rdmarwein\FormApi\Models\FormExcludeColumns',
                 'role' => 'ADM'                    
             ],
             [
                 'header' => 'Mapping',
                 'table_name' => 'form_foreign_keys',
-                'model' => 'App\Models\FormForeignKey',
+                'model' => 'Rdmarwein\FormApi\Models\FormForeignKey',
                 'role' => 'ADM'                    
             ],
             [
                 'header' => 'Dependent Field',
                 'table_name' => 'form_dependant_fields',
-                'model' => 'App\Models\FormDependantField',
+                'model' => 'Rdmarwein\FormApi\Models\FormDependantField',
                 'role' => 'ADM'                    
             ],
             [
                 'header' => 'Form Validation',
                 'table_name' => 'form_validations',
-                'model' => 'App\Models\FormValidation',
+                'model' => 'Rdmarwein\FormApi\Models\FormValidation',
                 'role' => 'ADM'                    
             ]
             )

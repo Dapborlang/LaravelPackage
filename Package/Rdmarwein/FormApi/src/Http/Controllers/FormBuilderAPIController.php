@@ -1,14 +1,14 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace Rdmarwein\FormApi\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
-use App\Models\FormMaster;
+use Rdmarwein\FormApi\Models\FormMaster;
 use Illuminate\Support\Facades\DB;
-use App\Models\FormInputType;
-use App\Models\FormDependantField;
-use App\Models\FormValidation;
+use Rdmarwein\FormApi\Models\FormInputType;
+use Rdmarwein\FormApi\Models\FormDependantField;
+use Rdmarwein\FormApi\Models\FormValidation;
 
 class FormBuilderAPIController extends Controller
 {
