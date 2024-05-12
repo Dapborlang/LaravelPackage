@@ -27,7 +27,8 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Tests\\": "tests/"
+            "Tests\\": "tests/",
+            "Rdmarwein\\FormApi\\": "Package/Rdmarwein/FormApi/src"
         }
     },
     "scripts": {
