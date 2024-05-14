@@ -44,4 +44,10 @@ class User extends Authenticatable
             'password' => 'hashed',
         ];
     }
+
+    public function formRole()
+    {
+       return $this->hasMany('Rdmarwein\FormApi\Models\FormRole');
+    }
+
 }
