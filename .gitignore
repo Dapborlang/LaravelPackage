@@ -2,7 +2,7 @@
 /node_modules
 /public/build
 /Package1
-/Package/*
+/Package
 /public/hot
 /public/storage
 /storage/*.key
