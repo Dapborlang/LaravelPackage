@@ -1,7 +1,6 @@
 /.phpunit.cache
 /node_modules
 /public/build
-/Package1
 /Package
 /public/hot
 /public/storage
